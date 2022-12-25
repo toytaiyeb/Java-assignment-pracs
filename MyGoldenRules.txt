@@ -1,0 +1,59 @@
+/*
+
+My golden rules=
+
+
+1)A class in java can inherit any other class using the keyword extends(Simple Inheritance)
+
+2)All members of the superclass are inherited in the subclass.
+
+3)All non-private members/fields/methods/constructors are accessible in the subclass 
+within the package.
+
+4)Protected Members are accessible in all subclass.
+
+5)  Java does not support multiple inheritances of classes ( Class A can extend at most 1 class)
+
+6) In a class where no constructors are defined, a default constructor is implicitly 
+provided(by the compiler).
+
+7)Every subclass constructor before starting executions, first invokes the 
+constructor of its immediate superclass. The default constructor of the user class is 
+invoked implicitly unless specified otherwise.
+
+8)We can use the keyword "super" to explicitly invoke an as the 1st 
+
+9)Any non-final method in a super-class can be overridden in the subclass as long as 
+you do not assign a weaker privilege/access.
+
+
+10)An abstract class (defined using the keyword 'abstract') cannot be instantiated however 
+they can be inherited. 
+
+11)An abstract method is a method without a body,
+
+12) An abstract method can only be written in an abstract class.
+
+13)The subclass of an abstract class must override all abstract methods(if any) 
+
+                            OR
+                            
+    The subclass must be declared 'abstract'.
+    
+    
+14) An interface is a special type of abstract class where all the methods are by default 
+    public and abstract.
+
+    
+15) When a class inherits an interface we use the keyword 'implements' (instead of extends)
+
+16) A class that inherits an interface MUST override(implement) all the inherited methods.
+    OR else the subclass becomes abstract.
+    
+17) A class can simultaneously extend another class and implement multiple interfaces 
+   (multiple inheritances.)
+
+
+
+
+*/
