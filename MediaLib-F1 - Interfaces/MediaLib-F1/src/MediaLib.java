@@ -11,6 +11,7 @@ public class MediaLib {
     }
 
     public void addMedia( Media m){
+
         medialist.add(m);
     }
 
@@ -23,6 +24,7 @@ public class MediaLib {
     }
 
     public void playMedia(int index){
+
         medialist.get(index).play();
     }
 }

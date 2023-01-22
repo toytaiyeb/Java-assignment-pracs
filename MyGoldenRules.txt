@@ -53,7 +53,11 @@ they can be inherited.
 17) A class can simultaneously extend another class and implement multiple interfaces 
    (multiple inheritances.)
 
+18)A class can simultaneously extend another class and implement multiple interfaces (multiple inheritances).
 
+19)When an interface inherits another interface, we use the keyword 'extends'.
+
+20)A subclass which inherits a sub-interface, it must implement all methods which are inherited by the sub-interface.
 
 
 */
